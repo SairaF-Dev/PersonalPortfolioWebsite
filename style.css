@@ -49,6 +49,7 @@ header {
     color: var(--white);
 }
 
+
 .nav-link::before {
     content: "#";
     color: var(--primary);
@@ -259,10 +260,13 @@ header {
 }
 
 .project-card img {
+    /* width: 400px; */
+    /* height: 150px; */
     width: 100%;
     height: auto;
     object-fit: contain;
     border-bottom: 1px solid var(--gray);
+
 
 }
 
@@ -337,6 +341,12 @@ h3 {
     float: left;
     background: linear-gradient(135deg, rgb(120, 60, 137)0%, rgb(161, 132, 172)100%);
     animation-timing-function: ease-in-out;
+
+}
+
+.python {
+    width: 70%;
+    animation: html 2s;
 
 }
 
